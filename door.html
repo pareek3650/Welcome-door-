@@ -1,0 +1,184 @@
+<html>
+	<head>
+		<style type="text/css">
+			body
+			{
+				margin:0px;
+			}
+			.main
+			{
+				height:100%;
+				width:100%;
+				background-color: ffd8be;
+				
+				
+			}
+			.d1
+			{
+				width:45%;
+				height:100%;	
+				position:absolute;
+				background: 
+    repeating-radial-gradient(
+      circle at 0 0, 
+      #eee,
+      #ccc 50px
+    );
+				border-right:80px solid black;
+				animation-name:gate1;
+				animation-duration:7s;
+				animation-fill-mode:forwards;
+			}
+			@keyframes gate1
+			{
+				form
+				{
+					height:100%;
+					width:45%;
+				}
+				to
+				{
+					
+					width:0px;
+				}
+				
+			}
+			.d2
+			{
+				width:44.6%;
+				height:100%;	
+				position:absolute;
+				background: 
+    repeating-radial-gradient(
+      circle at 0 0, 
+      #eee,
+      #ccc 50px
+    );
+				border-left:80px solid black;
+				left:50.1%;
+				animation-name:gate2;
+				animation-duration:7s;
+				animation-fill-mode:forwards;	
+			}
+			@keyframes gate2
+			{
+				form
+				{
+					height:100%;
+					width:45%;
+				
+				}
+				to
+				{
+					
+					width:0px;
+					left:95%;
+				}
+				
+			}
+			.heading
+			{
+				font-size:0vmin;
+				color:black;
+				position:absolute;
+				left:40%;
+				top:40%;
+				animation-name:h1;
+				animation-duration:7s;
+				animation-fill-mode:forwards;
+			}
+			@keyframes h1
+			{
+				from
+				{
+					font-size:0vmin;
+				}	
+				to
+				{
+					font-size:10vmin;
+					color:black;
+					left:32%;
+					top:25%;
+					font-weight:bold;
+					letter-spacing:5px;
+					transform:rotate(360deg);
+					
+				}
+				
+			}
+			.heading2
+			{
+				font-size:0vmin;
+				color:black;
+				position:absolute;
+				left:40%;
+				top:40%;
+				animation-name:h2;
+				animation-duration:7s;
+				animation-fill-mode:forwards;
+			}
+			@keyframes h2
+			{
+				from
+				{
+					font-size:0vmin; 
+				}	
+				to
+				{
+					font-size:6vmin;
+					color:black;
+					left:37%;
+					top:40%; 
+					transform:rotate(360deg);
+					font-weight:bold;
+					letter-spacing:5px;
+					transition-timing-function:ease-out;	
+				}
+				
+			}
+			.img
+			{
+				width:0px;
+				height:0px;
+				position:absolute;
+				left:50%;
+				top:80%;
+				animation-name:img1;
+				animation-duration:7s;
+				animation-fill-mode:forwards;
+				
+			}
+			@keyframes img1
+			{
+				from
+				{
+					font-size:0vmin; 
+				}	
+				to
+				{
+					width:200px;
+					height:200px;
+					
+					
+					left:42%;
+					top:55%; 
+					transform:rotate(360deg);
+					animation-duration: 7s;
+					
+					transition-timing-function:ease-out;	
+				}
+				
+			}
+		</style>	
+	</head>
+	<body>
+		<div class="main">
+			<span class="heading"> <i>Welcome to Git 
+			</i></span>
+			<span class="heading2">Sandeep Pareek</span>
+			<div class="d1"></div>	
+			<div class="d2"></div>
+			<img src="download.png" class="img">
+		</div>
+	</body>
+</html>
